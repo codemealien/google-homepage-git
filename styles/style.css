@@ -1,0 +1,27 @@
+html {
+    -webkit-appearance: none;
+    
+}
+
+body {
+
+}
+
+img {
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 10px;
+}  
+#input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 10px;
+    width: fit-content;
+}
