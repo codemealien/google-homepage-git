@@ -1,71 +1,9 @@
 /* css reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'arial', sans-serif;
-}
 
 /* body */
-body {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    justifu-content: center;
-    align-items: center;
-    border: 0.5px dashed rgb(255, 255, 255);
-     }
 
 /* navbar */
 
-header {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        padding: 20px;
-       }
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-
-nav li {
-    list-style: none;
-    margin-left: 20px;
-    padding-top: 15px;
-      }
- nav a {
-     color: #111;
-     text-decoration: none;
-     font-size: 13px;  
- }     
-
- nav button {}
 /* google logo */
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding: 15px;
-    }  
 
 /* search bar */
-.main {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-input {
-    border: 3px solid black;
-    height: 40px;
-    width 300px;
-    border-radius: 10%;
-    padding: 0px 10px;
