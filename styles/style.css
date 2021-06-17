@@ -1,9 +1,19 @@
 /* css reset */
 
 /* body */
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif; 
 
+
+
+}
 /* navbar */
 
 /* google logo */
-
+#logo {
+height: 92px;
+width: 272px;
+}
 /* search bar */
