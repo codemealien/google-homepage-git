@@ -78,7 +78,76 @@ vertical-align: middle;
 {
  box-shadow: 1px 1px 5px #999;
 }
+/*Main Layout*/
+.grid-container
+{
+    display: grid;
+    position: fixed;
 
+    border: 2px solid  blue;
+}
+/* 1st row LOGO*/
+.row-1
+{
+border: 1px solid red;
+}
+/* 2nd row ICON AND BAR*/
 
+.row-2
+{
+    border: 1px solid red;
+}
+.search-icon
+{
+    border: 2px solid green;
+}
 
+.search-bar
+{
+    border: 2px solid green;
+}
 
+/* 3rd row BUTTONS*/
+.row-3
+{
+    border: 1px solid red;
+}
+
+.search-button
+{
+   border: 2px solid green;
+}
+
+.feeling-button
+{
+    border: 2px solid green;
+}
+
+/* 4th row LANGUAGES*/
+.row-4
+{
+    border: 1px solid red;
+    font-size: 13px;
+    
+}
+
+.row-4 a
+{
+    color: #1a0dab;;
+    text-decoration: none;
+    
+}
+.row-4 a:hover
+{
+    text-decoration: underline;
+}
+
+.row-4 ul
+{
+    display: inline-block;
+}
+
+.language-list
+{
+    border: 2px solid green;
+}
