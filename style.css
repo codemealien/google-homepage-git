@@ -1,7 +1,84 @@
 /* GENERAL EFFECTS */
 
-body {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
+body 
+{
+    font-family: arial, sans-serif;
     background-color: #fff;
 }
+/*NAVBAR EFFECTS*/
+.nav-flex-container 
+{
+ display: flex; 
+ position: fixed;
+        
+ padding: 10px;
+ width: 100%;
+ left: 0px;
+ top: 0px;
+} 
+
+.nav-flex-container a 
+{
+ color: inherit;
+ text-decoration: none;
+}
+
+.nav-flex-child 
+{
+ flex-grow: 1;
+ padding-right: 15px;
+}
+
+.nav-bar-right 
+{ 
+ list-style-type: none;
+ text-align: right;      
+          
+ margin: 0;
+ padding: 0;
+}
+
+.nav-flex-container li 
+{
+ display: inline-block;   
+ padding: 5px;
+ margin: 0 5px; 
+ color: rgba(0,0,0,0.87);
+ font-size: 14px;
+}
+
+.nav-flex-container li:not(#sign-in):hover 
+{
+ text-decoration: underline;
+}
+
+#nav-icon 
+{
+vertical-align: middle;
+}
+
+#nav-icon:hover 
+{
+ box-shadow: 1px 1px 4px #999; 
+ color: #999;
+ border-radius: 20px;
+ 
+}
+
+#sign-in 
+{            
+ background: #1a73e8; 
+ color:#fff; 
+ margin-right: 25px;
+ padding: 9px 23px;
+ border-radius: 4px;
+}
+
+#sign-in:hover 
+{
+ box-shadow: 1px 1px 5px #999;
+}
+
+
+
+
