@@ -15,6 +15,7 @@ body
  width: 100%;
  left: 0px;
  top: 0px;
+ border: 2px yellow solid;
 } 
 
 .nav-flex-container a 
@@ -82,50 +83,88 @@ vertical-align: middle;
 .grid-container
 {
     display: grid;
-    position: fixed;
+    
+    
+    grid-template-columns: repeat (4,1fr);
+    grid-template-rows: 2fr 1fr 1fr 1fr;
 
-    border: 2px solid  blue;
-}
+    margin: auto;
+    margin-top: 250px;
+    width: 100vw;
+    }
 /* 1st row LOGO*/
 .row-1
 {
-border: 1px solid red;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    margin: auto;
+    margin-bottom: 20px;
+    
+
 }
 /* 2nd row ICON AND BAR*/
 
-.row-2
+.row-2-box
 {
-    border: 1px solid red;
+    grid-row: 2;
+    grid-column: 1 / 4;
+    border-radius: 30px;
+    height: 34px;
+    margin: auto;
+    width: 35%;
+    border: 1px solid rgb(138, 136, 136);
+    display: inline-block;
+    padding-bottom: 10px;
+       
 }
-.search-icon
+
+.row-2-box:hover
 {
-    border: 2px solid green;
+    box-shadow: 1px 1px 3px #999;
+}
+
+#search-icon 
+{
+margin-left: 10px;
+margin-top: 10px;
 }
 
 .search-bar
 {
-    border: 2px solid green;
+    width: 88%;
+    height: 75%;
+    border: none;
+
 }
 
 /* 3rd row BUTTONS*/
 .row-3
 {
+    grid-row: 3;
+    grid-column: 2/3;
+    margin: auto;
     border: 1px solid red;
 }
 
 .search-button
 {
+    
+ 
    border: 2px solid green;
 }
 
 .feeling-button
 {
+    
     border: 2px solid green;
 }
 
 /* 4th row LANGUAGES*/
 .row-4
 {
+    grid-row: 4;
+    grid-column: 1 / 4;
+    margin: auto;
     border: 1px solid red;
     font-size: 13px;
     
@@ -147,7 +186,3 @@ border: 1px solid red;
     display: inline-block;
 }
 
-.language-list
-{
-    border: 2px solid green;
-}
